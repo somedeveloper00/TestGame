@@ -1,0 +1,3 @@
+add_executable(TestGameWindows src/Main.cpp)
+target_include_directories(TestGameWindows PUBLIC include)
+target_link_libraries(TestGameWindows GameEngineEditor GameEngineRuntime)
